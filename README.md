@@ -17,31 +17,18 @@
 - macOS Big Sur
 - macOS Catalina
 
-## Changelog
+#### Change by Geespot33 2023-07-22
 
-### 10-2-2023
-
-#### Update
-
-- `OpenCore` v0.8.8
-- `Airportitlwm` v2.2.0
-- `AppleALC` v1.7.8
-- `CPUFriend` v1.2.6
-- `CpuTscSync` v1.0.9
-- `IntelBlueToothFirmware` v2.2.0
-- `IntelBlueToothInjector` v2.2.0
-- `IntelMausi` v1.0.7
-- `Lilu` v1.6.3
-- `NVMeFix` v1.1.0
-- `RealtekRTL8111Ethernet` v2.4.2 (works on some models that come with that contr', doesn't effect intelmausi)
-- `VirtualSMC, SMCDellSensors , SMCProcessor, SMCsuperIO` v1.3.0
-- `USBInjectAll` latest
-- `WhateverGreen` v1.6.3
+- Disable IntelBlueToothFirmware, IntelBlueToothInjector, Airportitlwm, RealtekRTL8111Ethernet. Because not using yet
+- Remove USBInjectall (Created SSDT-s) USBMap used to for mapping, one of the rear USB2.0 is disabled.
 
 
-
-
-
+- Updated : 	Opencore	v0.9.3
+		AppleALC	v1.7.8
+		Lilu		v1.6.6
+		VirtualSMC	v1.3.2
+		Whatevergreen	v1.6.6
+		
 
 
 #### Change
